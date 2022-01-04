@@ -15,5 +15,7 @@ const App = () => {
     )
   
 };
+
+// This is a comment by Ishaan Sharma
 // Comment added by Lovish
 export default App;
