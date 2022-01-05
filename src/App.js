@@ -16,5 +16,5 @@ const App = () => {
   
 };
 
-// Comment added by Lovish
+// Comment added by Lovish Dak
 export default App;
