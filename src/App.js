@@ -9,9 +9,10 @@ import Header from "./Components/Header";
 const App = () => {
 
   return (
+
     <Switch>
-      <Header />
       <Route exact path="/">
+        <Header />
         <Home />
       </Route>
     </Switch>
