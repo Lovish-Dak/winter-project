@@ -6,6 +6,9 @@ import Home from "./Containers/Home";
 
 import Header from "./Components/Header";
 
+import Footer from "./Components/Footer";
+
+
 const App = () => {
 
   return (
@@ -14,11 +17,11 @@ const App = () => {
       <Route exact path="/">
         <Header />
         <Home />
+        <Footer />
       </Route>
     </Switch>
   )
 
 };
 
-// Comment added by Lovish Dak
 export default App;

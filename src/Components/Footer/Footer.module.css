@@ -1,0 +1,65 @@
+.BackToTop{
+    background-color: #37475a;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.FooterVerticalRow{
+    background-color: #232f3e;
+    color: white;
+}
+
+/* .column2,.column3{
+    display: table-cell;
+    margin: 20px;
+    padding: 100px 30px;
+}
+
+.column1{
+    margin: 20px;
+    padding-left: 330px;
+    padding-right: 40px;
+}
+
+.column4{
+    padding-right: 330px;
+    padding-left: 40px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 15px 45px 15px 25px;
+    width: fit-content;
+}
+
+.heading{
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+ul{
+    display: block;
+    list-style-type: none;
+    padding-left: 0px;
+    overflow: visible;
+    box-sizing: border-box;
+} */
+
+.div_containing_all_columns{
+    display:flex;
+    justify-content: space-evenly;
+}
+.column1, .column2, .column3, .column4{
+    margin: 20px 0px;
+} 
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: larger;
+}
