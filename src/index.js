@@ -1,36 +1,36 @@
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+
+// import { BrowserRouter as Router } from "react-router-dom";
+
+
+//import { Provider } from "react-redux";
+// import { StateProvider } from './Redux/StateProvider'
+// import reducer, { initialState } from './Redux/reducer'
+// import './index.css';
+// import App from './App';
+// import reportWebVitals from './reportWebVitals';
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import { BrowserRouter as Router } from "react-router-dom";
-
-
-import { Provider } from "react-redux";
-
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { StateProvider } from './Redux/StateProvider';
+import reducer, { initialState } from './Redux/reducer';
 
+//import { ConfigureStore } from "./Redux/ConfigureStore";
 
-import { ConfigureStore } from "./Redux/ConfigureStore";
-
-const store = ConfigureStore();
+//const store = ConfigureStore();
 
 
 ReactDOM.render(
   <React.StrictMode>
-    
-      <Provider store={store}>
-    
-      
-      <Router>
-      
-        <App />
-      
-      </Router>
-      
-    
-      </Provider>
-    
+
+    <StateProvider initialState={initialState} reducer={reducer}>
+
+      <App />
+    </StateProvider>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
