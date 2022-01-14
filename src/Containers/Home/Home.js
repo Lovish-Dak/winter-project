@@ -1,18 +1,13 @@
 import React from "react";
-
 import { useSelector } from "react-redux";
-
 import styles from "./Home.module.css";
-
-import Button from "../../Components/Button";
-
+//import Button from "../../Components/Button";
 import Product from "../../Components/Product";
-
-import Header from "../../Components/Header";
+//import Header from "../../Components/Header";
 
 const Home = () => {
 
-  const exampleState = useSelector(state => state.example.exampleState);
+  //const exampleState = useSelector(state => state.example.exampleState);
 
   return (
     <div className={styles.container}>

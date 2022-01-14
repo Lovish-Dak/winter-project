@@ -4,6 +4,7 @@ import styles from "./Footer.module.css";
 import { Link } from 'react-router-dom';
 
 
+<<<<<<< HEAD
 function Footer(){
     return(
         <div>
@@ -13,6 +14,17 @@ function Footer(){
                <div className={styles.div_containing_all_columns}> 
                 <div className={styles.column1}>
                     <div className={styles.heading}>Get to know us</div>
+=======
+function Footer() {
+    return (
+        <div>
+            <div className={styles.BackToTop}>Back To Top</div>
+
+            <div className={styles.FooterVerticalRow}>
+                <div className={styles.div_containing_all_columns}>
+                    <div className={styles.column1}>
+                        <div className={styles.heading}>Get to know us</div>
+>>>>>>> ishaan
                         <ul>
                             <li className={styles.ListItem}>About Us</li>
                             <li className={styles.ListItem}>Careers</li>
@@ -20,17 +32,29 @@ function Footer(){
                             <li className={styles.ListItem}>Amazon Cares</li>
                             <li className={styles.ListItem}>Gift a Smile</li>
                         </ul>
+<<<<<<< HEAD
                 </div>
                 <div className={styles.column2}>
                 <div className={styles.heading}>Connect with us</div>
+=======
+                    </div>
+                    <div className={styles.column2}>
+                        <div className={styles.heading}>Connect with us</div>
+>>>>>>> ishaan
                         <ul>
                             <li className={styles.ListItem}>Facebook</li>
                             <li className={styles.ListItem}>Twitter</li>
                             <li className={styles.ListItem}>Instagaram</li>
                         </ul>
+<<<<<<< HEAD
                 </div>
                 <div className={styles.column3}>
                 <div className={styles.heading}>Make Money With Us</div>
+=======
+                    </div>
+                    <div className={styles.column3}>
+                        <div className={styles.heading}>Make Money With Us</div>
+>>>>>>> ishaan
                         <ul>
                             <li className={styles.ListItem}>Sell on Amazon</li>
                             <li className={styles.ListItem}>Sell under Amazon Accelator</li>
@@ -40,9 +64,15 @@ function Footer(){
                             <li className={styles.ListItem}>Advertise Your Products</li>
                             <li className={styles.ListItem}>Amazon Pay on Merchants</li>
                         </ul>
+<<<<<<< HEAD
                 </div>
                 <div className={styles.column4}>
                 <div className={styles.heading}>Let Us Help You</div>
+=======
+                    </div>
+                    <div className={styles.column4}>
+                        <div className={styles.heading}>Let Us Help You</div>
+>>>>>>> ishaan
                         <ul>
                             <li className={styles.ListItem}>COVID-19 and Amazon</li>
                             <li className={styles.ListItem}>Your Account</li>
@@ -52,11 +82,19 @@ function Footer(){
                             <li className={styles.ListItem}>Amazon Assistant Download</li>
                             <li className={styles.ListItem}>Help</li>
                         </ul>
+<<<<<<< HEAD
                 </div>
                </div> 
             </div>
             </div>
         
+=======
+                    </div>
+                </div>
+            </div>
+        </div>
+
+>>>>>>> ishaan
     )
 }
 
