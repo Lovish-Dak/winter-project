@@ -7,22 +7,12 @@ import Checkout from "./Containers/Checkout";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 
-import Footer from "./Components/Footer";
-
 
 const App = () => {
 
   return (
 
-<<<<<<< HEAD
-    <Switch>
-      <Route exact path="/">
-        <Header />
-        <Home />
-        <Footer />
-      </Route>
-    </Switch>
-=======
+
     <Router>
       <div className="app">
         <Routes>
@@ -33,7 +23,6 @@ const App = () => {
         </Routes>
       </div>
     </Router>
->>>>>>> ishaan
   )
 
 };
