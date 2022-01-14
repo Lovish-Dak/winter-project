@@ -1,0 +1,29 @@
+.BackToTop{
+    background-color: #37475a;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.FooterVerticalRow{
+    background-color: #232f3e;
+    color: white;
+}
+
+.div_containing_all_columns{
+    display:flex;
+    justify-content: space-evenly;
+}
+.column1, .column2, .column3, .column4{
+    margin: 20px 0px;
+} 
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: larger;
+}
