@@ -17,7 +17,7 @@ function Header() {
                 <SearchIcon className={styles.header__searchIcon} />
             </div>
             <div className={styles.header__nav}>
-                <Link to="/login">
+                <Link to="/login" style={{ textDecoration: 'none' }}>
                     <div className={styles.header__option}>
                         <span className={styles.header__optionLineOne}>Hello Guest</span>
                         <span className={styles.header__optionLineTwo}>Sign In</span>
@@ -31,7 +31,7 @@ function Header() {
                     <span className={styles.header__optionLineOne}>Your</span>
                     <span className={styles.header__optionLineTwo}>Prime</span>
                 </div>
-                <Link to="/checkout">
+                <Link to="/checkout"style={{ textDecoration: 'none' }}>
                     <div className={styles.header__optionBasket}>
                         <ShoppingCartIcon />
                         <span className={styles.header__optionLineTwo.header__basketCount}>{basket?.length}</span>
